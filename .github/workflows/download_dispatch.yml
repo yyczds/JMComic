@@ -84,11 +84,11 @@ jobs:
       JM_DOWNLOAD_DIR: /home/runner/work/jmcomic/download/
 
     steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python 3.11
+      - uses: actions/checkout@v4
+      - name: Set up Python 4.1.4
         uses: actions/setup-python@v4
         with:
-          python-version: "3.11"
+          python-version: "4.1.4"
 
       - name: Install Dependency
         run: |
